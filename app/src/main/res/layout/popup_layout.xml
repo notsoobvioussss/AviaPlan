@@ -1,0 +1,22 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fon_avia"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPopupContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text about country"
+        android:textColor="#2196F3" />
+
+    <Button
+        android:id="@+id/buttonClosePopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="Close" />
+</LinearLayout>
